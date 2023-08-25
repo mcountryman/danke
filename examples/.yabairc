@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+# .. 
+
+# Registers the minimized window to the stash stack
+yabai -m signal --add event=window_minimized \
+  action="danke stash --window \$YABAI_WINDOW_ID --behavior stash"

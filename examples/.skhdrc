@@ -1,0 +1,8 @@
+
+# cmd - '
+cmd - 0x27 : danke cycle
+cmd + shift - 0x27 : danke stash
+
+# cmd - ;
+cmd - 0x29 : danke show
+

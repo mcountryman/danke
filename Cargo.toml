@@ -1,0 +1,16 @@
+[package]
+name = "danke"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+lto = true
+strip = true
+panic = "abort"
+codegen-units = 1
+
+[dependencies]
+argh = "0.1.12"
+clap = { version = "4.3.23", features = ["derive"] }
+miniserde = "0.1.34"
+
